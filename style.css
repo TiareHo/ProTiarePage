@@ -1,0 +1,129 @@
+:root {
+  --primary-color: #321f28;
+  --secondary-color: #ece6b748;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  font-family: "Neue Haas Display", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+span.hello {
+  opacity: 0.7;
+  font-style: oblique;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+
+h1,
+h2 {
+  font-size: 85px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 28px;
+}
+
+h3,
+h2 {
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  opacity: 0.7;
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: white;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.project-image {
+  width: 90%;
+  display: flex;
+  border: solid 3px var(--secondary-color);
+  box-shadow: var(--box-shadow);
+}
+.project-thumbnail {
+  max-width: 200px;
+  display: flex;
+  margin: 0 auto;
+}
+#thumbnails {
+  display: flex;
+  justify-content: space-around;
+}
+div.col-md-3 {
+  padding: 5px;
+  margin: 2px auto;
+  text-align: center;
+}
+.col-6 {
+  background-color: rgba(255, 255, 255, 0.721);
+  padding: 15px;
+}
+.about-paragraph {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraph p {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.721);
+  padding: 15px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
