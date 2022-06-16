@@ -1,42 +1,33 @@
 :root {
-  --primary-color: #321f28;
-  --secondary-color: #ece6b748;
+  --primary-color: #252224;
+  --secondary-color: #f3efe2;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 60px auto;
   max-width: 800px;
-  font-family: "Neue Haas Display", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--secondary-color);
 }
 
-span.hello {
-  opacity: 0.7;
-  font-style: oblique;
-}
-
 h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0 auto;
+.hello,
+h2 {
   color: var(--primary-color);
+  display: block;
 }
 
 h1,
-h2 {
-  font-size: 85px;
+.hello {
+  font-size: 60px;
   margin-bottom: 10px;
+  font-weight: 100;
 }
-h3 {
-  font-size: 28px;
-}
-
-h3,
 h2 {
+  font-size: 28px;
   opacity: 0.7;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 p {
@@ -46,39 +37,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-}
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  opacity: 0.7;
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  background-color: white;
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
 }
 
 .project-image {
