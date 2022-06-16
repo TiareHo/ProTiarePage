@@ -30,6 +30,10 @@ h2 {
   margin-top: 20px;
 }
 
+#projects-headline {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+}
 p {
   background: var(--secondary-color);
   padding: 20px;
@@ -63,15 +67,30 @@ div.col-md-3 {
   background-color: rgba(255, 255, 255, 0.721);
   padding: 15px;
 }
+
+@media (max-width: 767px) {
+  .project-thumbnail {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-image {
+    margin: 0 auto;
+  }
+}
+
 .about-paragraph {
   display: flex;
   margin: 30px 0;
 }
 
-.about-paragraph p {
+.about-paragraph p,
+#contact {
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.721);
   padding: 15px;
+  text-align: center;
 }
 
 .email-link {
